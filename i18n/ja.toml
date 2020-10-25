@@ -22,4 +22,4 @@
 [blog_shareThis]
     other = "記事を共有する"
 [footer_text]
-    other = "[Hugo](http://gohugo.io/)の[**Introduction**](https://github.com/victoriadrake/hugo-theme-introduction/)テーマを使用しています． オープンソースコントリビューターの[<i class=\"fa fa-heart\"></i>と<i class=\"fa fa-coffee\"></i>](https://victoria.dev)によって作られています．"
+    other = "[Hugo](http://gohugo.io/)の[**Introduction**](https://github.com/atm44/hugo-theme-introduction/)テーマを使用しています． オープンソースコントリビューターの[<i class=\"fa fa-heart\"></i>と<i class=\"fa fa-coffee\"></i>](https://victoria.dev)によって作られています．"

@@ -22,4 +22,4 @@
 [blog_shareThis]
     other = "分享"
 [footer_text]
-    other = "[**Introduction**](https://github.com/victoriadrake/hugo-theme-introduction/) 主题为 [Hugo](http://gohugo.io/) 而设。由开源社群贡献者以 [<i class=\"fa fa-heart\"></i> 和 <i class=\"fa fa-coffee\"></i>](https://victoria.dev) 创造。"
+    other = "[**Introduction**](https://github.com/atm44/hugo-theme-introduction/) 主题为 [Hugo](http://gohugo.io/) 而设。由开源社群贡献者以 [<i class=\"fa fa-heart\"></i> 和 <i class=\"fa fa-coffee\"></i>](https://victoria.dev) 创造。"

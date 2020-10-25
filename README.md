@@ -1,7 +1,6 @@
 # Introduction theme for Hugo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92b48ed7-b332-4a1a-acd1-65b047abd29a/deploy-status)](https://app.netlify.com/sites/hugo-introduction/deploys)
-![Test Hugo versions](https://github.com/atm44/hugo-theme-introduction/workflows/test-versions/badge.svg)
 ![Latest Release](https://img.shields.io/github/tag/victoriadrake/hugo-theme-introduction.svg)
 
 Introduction is a minimalist, highly-versatile theme for Hugo. It can be configured as a single page, or as a full-featured site with multiple sections. It is multilingual, responsive, and includes a light and dark theme.

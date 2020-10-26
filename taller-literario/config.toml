@@ -23,7 +23,7 @@ DefaultContentLanguage           = "es"                    # Default language fo
         numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
         localTime                = true                    # Show your current local time in contact section
         timeZone                 = "America/Argentina/Buenos_Aires"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-        timeFormat               = "mm:hh A"                # https://momentjs.com/docs/#/displaying/format/
+        timeFormat               = "hh:mm A"                # https://momentjs.com/docs/#/displaying/format/
     [params.projects]
         useTwoColumns            = false                   # Use a layout with two columns instead of three
 
@@ -38,38 +38,38 @@ DefaultContentLanguage           = "es"                    # Default language fo
     # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
     # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
     [[params.social]]
-        url   = "https://twitter.com/"
-        icon  = "twitter" # icon name without the 'fa-'
+        url   = "https://www.instagram.com/lamorenobernal/"
+        icon  = "instagram" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://facebook.com/"
+        url   = "https://www.facebook.com/lamorenobernal"
         icon  = "facebook-f" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://linkedin.com/"
-        icon  = "linkedin-in" # icon name without the 'fa-'
-        icon_pack = "fab"
-    [[params.social]]
-        url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
+        url = "biblioteca@lamoreno.org"  # For a direct email link, use "mailto:test@example.org".
         icon = "paper-plane" # icon name without the 'fa-'
         icon_pack = "fas"
-    [[params.social]]
-        url   = "https://mastodon.social/"
-        icon  = "mastodon" # icon name without the 'fa-'
-        icon_pack = "fab"
-        html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
 
 
 # If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+ [[menu.main]]
+     name    = "Inicio"
+     url     = "/"
+     weight  = 0
+ [[menu.main]]
+     name    = "Textos"
+     url     = "/Textos/"
+     weight  = 1
+ [[menu.main]]
+     name    = "Proyectos"
+     url     = "/Proyectos/"
+     weight  = 1
+ [[menu.main]]
+     name    = "Taller de literatura"
+     url     = "/#about"
+     weight  = 1     
 
+     
 # We only use tag as a taxonomies
 # You can add more by yourself
 [taxonomies]
@@ -94,15 +94,7 @@ DefaultContentLanguage           = "es"                    # Default language fo
     tabWidth = 4
 
 [languages]
-    [languages.en]
-        languageName     = "English"
-        languageCode     = "en-us"
-        contentDir       = "content/en"
-        weight           = 0
-        title            = "Literary Workshop"
-        [languages.en.params]
-            description  = "Mariano Moreno library literature workshop"   # Max 160 characters show in search results
-            # footerText   = ""                      # Text to override default footer text (markdown allowed)
+
 
     [languages.es]
         languageName     = "Español"

@@ -1,5 +1,5 @@
  [build]
- base = "taller-liteario"
+ base = "taller-literario"
  publish = "public"
  command = "hugo --gc --minify"
  

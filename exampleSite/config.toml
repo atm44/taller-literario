@@ -1,6 +1,6 @@
-baseURL                          = "http://example.com/"   # Your domain name. Must end with "/"
+baseURL                          = "https://taller-literario.netlify.app/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
-DefaultContentLanguage           = "en"                    # Default language for multilingual sites
+DefaultContentLanguage           = "es"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
@@ -99,7 +99,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "Literary Workshop"
         [languages.en.params]
             description  = "Website Description"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
@@ -109,18 +109,9 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "es"
         contentDir       = "content/es"
         weight           = 1
-        title            = "Introducción"
+        title            = "Taller Literario"
         [languages.es.params]
             description  = "Descripcion del sitio web"
             # footerText   = ""
 
-    [languages.de]
-        languageName     = "Deutsch"
-        languageCode     = "de"
-        contentDir       = "content/de"
-        weight           = 2
-        title            = "Vorstellung"
-        [languages.de.params]
-            dateFormat   = "2. January 2006"
-            description  = "Beschreibung der Webseite"
-            # footerText   = ""
+

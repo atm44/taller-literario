@@ -4,3 +4,6 @@
 [submodule "taller-literario/hugo-theme-introduction"]
 	path = taller-literario/hugo-theme-introduction
 	url = https://github.com/victoriadrake/hugo-theme-introduction.git
+[submodule "taller-literario/themes/hugo-theme-sam"]
+	path = taller-literario/themes/hugo-theme-sam
+	url = https://github.com/victoriadrake/hugo-theme-sam/

@@ -1,6 +1,6 @@
 ---
-title: "Hola, Soy Introducción"
+title: "--¡Hola!-- dijo con una sonrisa en el rostro"
 headless: true
 ---
 
-Soy un tema para Hugo
+Taller de literatura de la biblioteca Mariano Moreno

@@ -19,10 +19,10 @@
 # deploy contexts will inherit these settings.
 [context.production]
   publish = "docs/"
-  command = "npm i -g postcss postcss-cli autoprefixer && hugo --gc --minify -t ../.. -d ../docs -v -b /"
+  command = "npm i -g postcss postcss-cli autoprefixer && hugo --gc --minify -t ../.. -d ./docs -v -b https://taller-literario.netlify.app/"
 
 # Deploy Preview context: all deploys resulting from a pull/merge request will
 # inherit these settings.
 [context.deploy-preview]
   publish = "docs/"
-  command = "hugo --gc --minify -t ../.. -d ../docs -v -b /"
+  command = "hugo --gc --minify -t ../.. -d ../docs -v -b https://taller-literario.netlify.app/"

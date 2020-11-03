@@ -1,10 +1,10 @@
 ---
-title: "Taller de literatura"
+title: "Taller literario"
 image: "profile.jpg"
 weight: 8
 ---
 
-Este es el **Taller de litaratura**, de la biblioteca Mariano Moreno
+Este es el **Taller literario**, de la biblioteca Mariano Moreno
 
 ### Con la participación estelar de:
 

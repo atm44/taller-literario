@@ -65,7 +65,7 @@ DefaultContentLanguage           = "es"                    # Default language fo
      url     = "/Proyectos/"
      weight  = 1
  [[menu.main]]
-     name    = "Taller de literatura"
+     name    = "Taller literario"
      url     = "/#about"
      weight  = 1     
 
@@ -103,7 +103,7 @@ DefaultContentLanguage           = "es"                    # Default language fo
         weight           = 1
         title            = "Taller Literario"
         [languages.es.params]
-            description  = "Taller de literatura de la biblioteca Mariano Moreno"
+            description  = "Taller lietario de la biblioteca Mariano Moreno"
             # footerText   = ""
 
 

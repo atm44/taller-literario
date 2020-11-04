@@ -2,9 +2,8 @@
 title: "Contacto"
 ---
 
-ASOCIACIÓN CULTURAL MARIANO MORENO
-<br>
-[sitio de la biblioteca](http://lamoreno.org/)
+
+[ASOCIACIÓN CULTURAL MARIANO MORENO](http://lamoreno.org/)
 <br>
 Belgrano 450 Bernal (B1876AFJ)
 <br>

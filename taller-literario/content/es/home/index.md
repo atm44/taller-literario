@@ -1,5 +1,5 @@
 ---
-title: "--¡Hola!-- dice alegre.<br>--Bienvenidos."
+title: "--¡Hola!-- dicen alegres.<br>--Bienvenido."
 headless: true
 ---
 

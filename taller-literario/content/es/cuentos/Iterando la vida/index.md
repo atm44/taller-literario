@@ -1,6 +1,6 @@
 ---
 title: "Iterando la vida - Leonel Bracco"
-date: 2017-11-13T11:58:39-05:00
+date: 2019-12-01T11:58:39-05:00
 tags: ["ciencia ficción"]
 ---
 

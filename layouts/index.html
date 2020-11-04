@@ -45,23 +45,23 @@
         {{ $home := . }}
         {{ $pages := .Resources.ByType "page" }}
 
-        {{ with .Site.GetPage "/blog" }}
+        {{ with .Site.GetPage "/cuentos" }}
             {{ $pages = $pages | append . }}
         {{ end }}
 
-        {{ with .Site.GetPage "/projects" }}
+        {{ with .Site.GetPage "/poemas" }}
             {{ $pages = $pages | append . }}
         {{ end }}
 
         {{ range sort $pages "Params.weight" }}
         {{ if ne .Name "contact.md" }}
         {{ if .File }}
-        {{ if eq (os.Stat .File.Dir).Name "projects" }}
-            <!-- Now for some cool projects -->
-            {{ partial "home/projects.html" . }}
-        {{ else if eq (os.Stat .File.Dir).Name "blog" }}
-            <!-- Let`s show some blog posts -->
-            {{ partial "home/blog.html" . }}
+        {{ if eq (os.Stat .File.Dir).Name "poemas" }}
+            <!-- Now for some cool poemas -->
+            {{ partial "home/poemas.html" . }}
+        {{ else if eq (os.Stat .File.Dir).Name "cuentos" }}
+            <!-- Let`s show some cuentos posts -->
+            {{ partial "home/cuentos.html" . }}
         {{ else }}
 
         <!-- Range through all sections in /home execept contact.md -->

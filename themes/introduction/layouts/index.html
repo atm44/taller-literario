@@ -52,11 +52,18 @@
         {{ with .Site.GetPage "/poemas" }}
             {{ $pages = $pages | append . }}
         {{ end }}
+        
+        {{ with .Site.GetPage "/pictures" }}
+            {{ $pages = $pages | append . }}
+        {{ end }}
 
         {{ range sort $pages "Params.weight" }}
         {{ if ne .Name "contact.md" }}
         {{ if .File }}
-        {{ if eq (os.Stat .File.Dir).Name "poemas" }}
+        {{ if eq (os.Stat .File.Dir).Name "pictures" }}
+            <!-- Now for some cool projects -->
+            {{ partial "home/pictures.html" . }}
+        {{ else if eq (os.Stat .File.Dir).Name "poemas" }}
             <!-- Now for some cool poemas -->
             {{ partial "home/poemas.html" . }}
         {{ else if eq (os.Stat .File.Dir).Name "cuentos" }}

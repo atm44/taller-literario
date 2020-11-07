@@ -9,7 +9,7 @@ DefaultContentLanguage           = "es"                    # Default language fo
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
-    fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
+    fadeInIndex                  = true                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "2 jan, 2006"
     email                        = ""   # E-mail address for contact section
     # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
@@ -68,7 +68,10 @@ DefaultContentLanguage           = "es"                    # Default language fo
      name    = "Taller literario"
      url     = "/#about"
      weight  = 1     
-
+ [[menu.main]]
+     name    = "Galeria"
+     url     = "/pictures"
+     weight  = 1    
      
 # We only use tag as a taxonomies
 # You can add more by yourself

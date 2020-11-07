@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cuentos on Taller Literario</title>
+    <link>https://taller-literario.netlify.app/cuentos/</link>
+    <description>Recent content in Cuentos on Taller Literario</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 01 Dec 2019 11:58:39 -0500</lastBuildDate><atom:link href="https://taller-literario.netlify.app/cuentos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iterando la vida - Leonel Bracco</title>
+      <link>https://taller-literario.netlify.app/cuentos/iterando-la-vida/</link>
+      <pubDate>Sun, 01 Dec 2019 11:58:39 -0500</pubDate>
+      
+      <guid>https://taller-literario.netlify.app/cuentos/iterando-la-vida/</guid>
+      <description>Oliver miraba la costosa almohada sin verla, se cubría sobre finas sábanas sin sentirlas y dormía en una lujosa cama que no le importaba. Las manos ásperas, el cuerpo pesado, la cabeza como embotada. Dolores y limitaciones físicas para cualquier cosa, solo ir al baño ya era una epopeya, pero cuando reflexiona sobre la vejez, no son esas las primeras cosas en las que piensa.
+Sabiendo que el día está cerca no para de rememorar y rumiar toda su vida.</description>
+    </item>
+    
+  </channel>
+</rss>

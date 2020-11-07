@@ -1,4 +1,4 @@
-{{ with .Site.GetPage "/pictures" }}
+{{ with .Site.GetPage "/projects" }}
 <div class="section" id="{{ .Title | urlize }}">
     <!-- Begin Projects container -->
     <div class="container">
@@ -7,12 +7,12 @@
         </h2>
         <div class="section">
             <div class="columns is-multiline">
-                {{ $totalpictures := (len .Pages) }}
-                {{ $numberOfpicturesToShow := .Site.Params.home.numberOfpicturesToShow | default $totalpictures }}
-                {{ range $index, $element := .Pages.ByWeight | first $numberOfpicturesToShow }}
+                {{ $totalProjects := (len .Pages) }}
+                {{ $numberOfProjectsToShow := .Site.Params.home.numberOfProjectsToShow | default $totalProjects }}
+                {{ range $index, $element := .Pages.ByWeight | first $numberOfProjectsToShow }}
                 {{ $width := "302x" }}
                 {{ $columWidth := "is-one-third" }}
-                {{ if .Site.Params.pictures.useTwoColumns }}
+                {{ if .Site.Params.projects.useTwoColumns }}
                   {{ $columWidth = "is-half" }}
                   {{ $width = "490x" }}
                 {{ end}}
@@ -40,7 +40,7 @@
                 {{ end }}
             </div>
         </div>
-        {{ if lt $numberOfpicturesToShow $totalpictures }}
+        {{ if lt $numberOfProjectsToShow $totalProjects }}
         <div class="container has-text-centered top-pad">
             <a href="{{ .Permalink }}">{{ i18n "index_projects_allProjects" . }}</a>
         </div>
@@ -48,7 +48,7 @@
     </div>
     <!-- End Projects container -->
     <!-- Projects modals -->
-    {{ range $index, $element := .Pages.ByWeight | first $numberOfpicturesToShow }}
+    {{ range $index, $element := .Pages.ByWeight | first $numberOfProjectsToShow }}
     {{ if not .Params.external_link }}
     <div class="modal" id="project-{{ $index }}">
         <div class="modal-background"></div>

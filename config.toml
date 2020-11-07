@@ -69,8 +69,8 @@ DefaultContentLanguage           = "es"                    # Default language fo
      url     = "/#about"
      weight  = 1     
  [[menu.main]]
-     name    = "Galeria"
-     url     = "/pictures"
+     name    = "Galería de fotos"
+     url     = "/projects"
      weight  = 1    
      
 # We only use tag as a taxonomies

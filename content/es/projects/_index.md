@@ -1,6 +1,6 @@
 ---
 title: "Galería de fotos"
-weight: 10
+weight: 8
 ---
-
+ 
 

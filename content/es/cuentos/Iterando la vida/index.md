@@ -42,4 +42,4 @@ El otro, en respuesta, exhala todo el humo de los pulmones; inundando tanto el m
 
 Ambos hombres guardan silencio, mientras observan gráficos en una pantalla. Al cabo de un rato, uno de los dos pregunta, con curiosidad: ― me pregunto qué sentirá cuando al final de cada iteración se juntan todas las conciencias― El fumador lo mira, vuelve a exhalar el fastidioso humo.
 
-― Qué se yo.
+― Qué se yo. 

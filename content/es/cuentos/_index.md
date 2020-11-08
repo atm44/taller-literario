@@ -9,7 +9,7 @@ image: "Cuentos.jpg"
 	
 </div>
 
-Durante el taller los integrantes reciben distintas consignas con las que pueden trabajar. Acá se presentan algunos cuentos que se leyeron en el las clases.
+Durante el taller los integrantes reciben distintas consignas con las que pueden trabajar. Acá se presentan algunos cuentos que se leyeron en las clases.
 
 
 

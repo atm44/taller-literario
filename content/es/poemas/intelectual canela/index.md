@@ -1,6 +1,6 @@
 ---
 title: "Intelectual (o algo así era) - Canela"
-date: 2020-11-01T12:04:16-05:00
+date: 2020-11-10
 tags: ["académia", "intelecto", "sociedad","crítica"]
 ---
 <hr>

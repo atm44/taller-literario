@@ -1,3 +1,5 @@
+
+
 {{ define "title" }}
 {{ with .Site.GetPage "/cuentos" }}
 <h1 class="bold-title is-1">{{ .Title | markdownify }}</h1>
@@ -59,6 +61,7 @@
 <div class="container markdown top-pad">
     {{ .Content }}
 </div>
+
 <!-- End blog post content -->
 {{ partial "comments.html" . }}
 {{ end }}

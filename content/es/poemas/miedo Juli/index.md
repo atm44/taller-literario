@@ -2,19 +2,6 @@
 title: "Miedo - Julieta Bonsangue"
 date: 2020-11-12T15:19:31+0000
 ---
-<style>
-.quote {
-  margin: 0;
-  background: #eee;
-  padding: 0.1em;
-  border-radius: 1em;
-}
-.quote figcaption,
-.quote blockquote {
-  margin: 1em;
-}
-</style>
-
 <hr>
 
 <figure class="quote">

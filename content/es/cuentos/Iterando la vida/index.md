@@ -6,6 +6,7 @@ tags: ["ciencia ficción"]
 <hr>
 
 <figure class="cuento">
+
 Oliver miraba la costosa almohada sin verla, se cubría sobre finas sábanas sin sentirlas y dormía en una lujosa cama que no le importaba. Las manos ásperas, el cuerpo pesado, la cabeza como embotada. Dolores y limitaciones físicas para cualquier cosa, solo ir al baño ya era una epopeya, pero cuando reflexiona sobre la vejez, no son esas las primeras cosas en las que piensa.
 
 Sabiendo que el día está cerca no para de rememorar y rumiar toda su vida. Una vida completa; tuvo sus momentos duros y siente nudos en el estómago al recordar ciertas cosas, pero en síntesis sabe que su vida fue plena y que le tocaron buenos dados, no los mejores quizá, pero lo suficiente para estar conforme al día de hoy con 107 años. Con la certeza de que no queda mucho para llegar a la linea de meta, no paran de aflorar a la superficie recuerdos de cálidos abrazos, emocionantes conquistas, o pasiones desenfrenadas. En este estado, morir también significa haber vivido.

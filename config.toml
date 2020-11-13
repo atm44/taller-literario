@@ -2,7 +2,7 @@ baseURL                          = "https://taller-literario.netlify.app/"   # Y
 theme                            = "introduction"
 DefaultContentLanguage           = "es"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
+googleAnalytics                 = "UA-107002641-1"                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
     themeStyle                   = "light"                 # Choose "light" or "dark"

@@ -4,6 +4,7 @@ date: 2019-12-01T11:58:39-05:00
 tags: ["ciencia ficción"]
 ---
 <hr>
+
 <figure class="cuento">
 Oliver miraba la costosa almohada sin verla, se cubría sobre finas sábanas sin sentirlas y dormía en una lujosa cama que no le importaba. Las manos ásperas, el cuerpo pesado, la cabeza como embotada. Dolores y limitaciones físicas para cualquier cosa, solo ir al baño ya era una epopeya, pero cuando reflexiona sobre la vejez, no son esas las primeras cosas en las que piensa.
 

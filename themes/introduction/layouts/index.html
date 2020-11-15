@@ -56,6 +56,10 @@
         {{ with .Site.GetPage "/projects" }}
             {{ $pages = $pages | append . }}
         {{ end }}
+        
+        {{ with .Site.GetPage "/galeria" }}
+            {{ $pages = $pages | append . }}
+        {{ end }}
 
         {{ range sort $pages "Params.weight" }}
         {{ if ne .Name "contact.md" }}
@@ -63,6 +67,9 @@
         {{ if eq (os.Stat .File.Dir).Name "projects" }}
             <!-- Now for some cool projects -->
             {{ partial "home/projects.html" . }}
+        {{ else if eq (os.Stat .File.Dir).Name "galeria" }}
+            <!-- Now for some cool galeria -->
+            {{ partial "home/galeria.html" . }}
         {{ else if eq (os.Stat .File.Dir).Name "poemas" }}
             <!-- Now for some cool poemas -->
             {{ partial "home/poemas.html" . }}

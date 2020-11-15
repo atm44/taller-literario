@@ -1,6 +1,6 @@
 ---
-title: "Galería de fotos"
-weight: 8
+title: "Proyectos"
+weight: 9
 ---
  
 

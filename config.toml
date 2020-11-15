@@ -70,7 +70,7 @@ googleAnalytics                 = "UA-107002641-1"                     # https:/
      weight  = 1     
  [[menu.main]]
      name    = "Galería de fotos"
-     url     = "/projects"
+     url     = "/galeria"
      weight  = 1    
      
 # We only use tag as a taxonomies

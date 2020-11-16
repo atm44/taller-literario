@@ -1,5 +1,5 @@
 ---
-title: "Magia - Karina Konte"
+title: "Magia - Karina Conte"
 date: 2020-10-30
 ---
 <hr>
